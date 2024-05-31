@@ -24,10 +24,13 @@ function App() {
     }
   };
 
-  const handleRemoveFromCart = (id) => {
+  const handleRemoveFromCart = (id, price, credit_hour) => {
     const filteredCartCourse = cart.filter((c) => c.id !== id);
     setCart(filteredCartCourse);
-  }
+    setCreditHour(creditHour - credit_hour);
+    setTotalPrice(totalPrice - price);
+    setRemainingCredit(remainingCredit + credit_hour);
+  };
 
   return (
     <div className="bg-gray-100">
