@@ -12,9 +12,9 @@ const Courses = ({ handleAddToCart }) => {
   }, []);
 
   return (
-    <div className="container mx-auto py-20 w-4/5">
-      <h3 className="text-blue-400 text-start text-2xl font-semibold mb-4">
-        Available Courses: {courses.length}
+    <div className="container mx-auto py-10 w-4/6">
+      <h3 className="text-blue-400 text-start text-xl font-semibold mb-4">
+        Mandatory Courses: {courses.length}
       </h3>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {courses.map((course, idx) => (

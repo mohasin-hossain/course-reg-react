@@ -36,7 +36,7 @@ function App() {
     <div className="bg-gray-100">
       <h1 className="text-center p-4 bg-white text-blue-500 text-3xl font-bold border-b-2">
         {" "}
-        Course Registration
+        Course Registration Portal
       </h1>
       <div className="flex px-10">
         <Courses handleAddToCart={handleAddToCart}></Courses>
