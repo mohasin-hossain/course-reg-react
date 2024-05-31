@@ -2,7 +2,7 @@
     {
       "id": 1,
       "course_name": "Introduction to C Programming",
-      "description": "Learn the basics of C programming, including syntax, control flow, and data structures.",
+      "description": "Learn the basics of C programming, including syntax, control flow, and data structures, Generators, AJAX, control flow, and data structures.",
       "course_img": "../src/Asset/Rectangle 2-2.png",
       "price": 100,
       "credit_hour": 3
@@ -18,7 +18,7 @@
     {
       "id": 3,
       "course_name": "Introduction to C++ for DSA",
-      "description": "Master C++, including DSA, Generators, AJAX, control flow, and data structures.",
+      "description": "Master C++, including DSA, Generators, AJAX, control flow, and data structures, including syntax, control flow, and data structures, operators, math functions.",
       "course_img": "../src/Asset/Rectangle 2-4.png",
       "price": 150,
       "credit_hour": 3
