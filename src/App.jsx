@@ -24,6 +24,11 @@ function App() {
     }
   };
 
+  const handleRemoveFromCart = (id) => {
+    const filteredCartCourse = cart.filter((c) => c.id !== id);
+    setCart(filteredCartCourse);
+  }
+
   return (
     <div className="bg-gray-100">
       <h1 className="text-center p-4 bg-white text-blue-500 text-3xl font-bold border-b-2">
@@ -37,6 +42,7 @@ function App() {
           creditHour={creditHour}
           totalPrice={totalPrice}
           remainingCredit={remainingCredit}
+          handleRemoveFromCart={handleRemoveFromCart}
         ></Sidebar>
       </div>
     </div>

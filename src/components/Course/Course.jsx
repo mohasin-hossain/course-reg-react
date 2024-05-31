@@ -1,8 +1,7 @@
-
+import PropTypes from "prop-types";
 
 const Course = ({ course, handleAddToCart }) => {
-  const { id, course_name, description, course_img, price, credit_hour } =
-    course;
+  const { course_name, description, course_img, price, credit_hour } = course;
 
   return (
     <div className="space-y-4 shadow-lg p-4 rounded-lg bg-white">
@@ -27,5 +26,9 @@ const Course = ({ course, handleAddToCart }) => {
   );
 };
 
+Course.propTypes = {
+  course: PropTypes.object.isRequired,
+  handleAddToCart: PropTypes.func.isRequired,
+};
 
 export default Course;
