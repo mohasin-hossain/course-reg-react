@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "course_name": "Introduction to C Programming",
+      "description": "Learn the basics of C programming, including syntax, control flow, and data structures.",
+      "course_img": "../src/Asset/Rectangle 2-2.png",
+      "price": 100,
+      "credit_hour": 3
+    },
+    {
+      "id": 2,
+      "course_name": "Introduction to Algorithm",
+      "description": "Comprehensive course on Algorithms, covering object-oriented concepts, GUIs, and network programming.",
+      "course_img": "../src/Asset/Rectangle 2-3.png",
+      "price": 120,
+      "credit_hour": 4
+    },
+    {
+      "id": 3,
+      "course_name": "Introduction to C++ for DSA",
+      "description": "Master C++, including DSA, Generators, AJAX, control flow, and data structures.",
+      "course_img": "../src/Asset/Rectangle 2-4.png",
+      "price": 150,
+      "credit_hour": 3
+    },
+    {
+      "id": 4,
+      "course_name": "Basic Data Structures",
+      "description": "Explore data science techniques using Pyhton, R, Golang, including data visualization, statistical analysis, and machine learning.",
+      "course_img": "../src/Asset/Rectangle 3.png",
+      "price": 200,
+      "credit_hour": 4
+    },
+    {
+      "id": 5,
+      "course_name": "Introduction to OOP Python",
+      "description": "Learn the fundamentals of Python programming, from basic syntax to object-oriented programming and STL.",
+      "course_img": "../src/Asset/Rectangle 2.png",
+      "price": 110,
+      "credit_hour": 3
+    },
+    {
+      "id": 6,
+      "course_name": "Software Engineering",
+      "description": "Build Android applications using Java and Kotlin, covering UI design, database integration, and Google APIs.",
+      "course_img": "../src/Asset/Rectangle 2-5.png",
+      "price": 180,
+      "credit_hour": 4
+    },
+    {
+      "id": 7,
+      "course_name": "AWS Cloud Computing",
+      "description": "Become a fully-fledged Cloud Computing Expert along with this course on HTML, CSS, JavaScript, Node.js, and MongoDB.",
+      "course_img": "../src/Asset/Rectangle 3-1.png",
+      "price": 250,
+      "credit_hour": 5
+    },
+    {
+      "id": 8,
+      "course_name": "Database(MySQL) with Machine Learning",
+      "description": "Delve into databases with machine learning algorithms and techniques using Python libraries such as scikit-learn and TensorFlow.",
+      "course_img": "../src/Asset/Rectangle 2-1.png",
+      "price": 220,
+      "credit_hour": 4
+    },
+    {
+      "id": 9,
+      "course_name": "Problem Solving Part 3",
+      "description": "Understand the principles of Problem Solving, including threat analysis, cryptography, and network security.",
+      "course_img": "../src/Asset/Rectangle 2-6.png",
+      "price": 170,
+      "credit_hour": 3
+    }
+  ]
+  
